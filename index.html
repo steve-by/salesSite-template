@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>Sales Overview</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet">
+
+    <link href="css/application.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/05f1450eac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="left-sidebar float-left">
+                <nav class="sidebar-nav">
+                    <div class="sidebar-header">
+                        <a href="index.html">
+                            <span class="icon-leaf fas fa-globe fa-4x"></span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <ul class="nav-pills">
+                            <li>
+                                <a class="active" href="index.html">Overview</a>
+                            </li>
+                            <li>
+                                <a href="order-history.html">Order history</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="right-sidebar">
+                <div class="dashhead">
+                    <div class="dashhead-title">
+                        <h2>Overview</h2>
+                    </div>
+
+                    <div class="dashhead-toolbar">
+                        <span class="fas fa-calendar-alt sp"> 
+                          <input type="text" value="01/01/21 - 01/08/21"> 
+                        </span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="charts">
+
+                    <div class="dougnut">
+
+                        <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#252830"></circle>
+                            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#c25409" stroke-width="3"></circle>
+                            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#09398b" stroke-width="3" stroke-dasharray="64 36" stroke-dashoffset="0"></circle>
+                        </svg>
+
+                        <p class="center">Traffic</p>
+                        <h3 class="center">
+                            <span class="c1">New</span> vs <span class="c2">Returning</span>
+                        </h3>
+                    </div>
+
+                    <span class="d1">63%</span>
+                    <span class="d2">36%</span>
+
+                    <div class="dougnut">
+
+                        <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#252830"></circle>
+                            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#c25409" stroke-width="3"></circle>
+                            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#09398b" stroke-width="3" stroke-dasharray="91 9" stroke-dashoffset="0"></circle>
+                        </svg>
+
+                        <p class="center">Revenue</p>
+                        <h3 class="center">
+                            <span class="c1">New</span> vs <span class="c2">Recurring</span>
+                        </h3>
+                    </div>
+
+                    <span class="d3">91%</span>
+                    <span class="d4">9%</span>
+
+                    <div class="dougnut">
+
+                        <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#252830"></circle>
+                            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#c25409" stroke-width="3"></circle>
+                            <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#09398b" stroke-width="3" stroke-dasharray="28 72" stroke-dashoffset="0"></circle>
+                        </svg>
+
+                        <p class="center">Traffic</p>
+                        <h3 class="center">
+                            <span class="c1">Direct</span> vs
+                            <span class="c2">Referrals</span>
+                        </h3>
+                    </div>
+
+                    <span class="d5">28%</span>
+                    <span class="d6">72%</span>
+
+                </div>
+
+                <div class="divider">
+                    <h3 class="divider-content center">Quick Stats</h3>
+                </div>
+
+                <div class="statcards charts">
+
+                    <div class="statcard statcard-success">
+                        <div class="p-a">
+                            <span class="statcard-desc">Page views</span>
+                            <h2 class="statcard-number">12,950
+                                <small>8% <i class="fas fa-caret-up"></i></small>
+                            </h2>
+                            <hr class="divider">
+                            <img class="c-img" src="images/c1.png" alt="chart one">
+                        </div>
+                    </div>
+
+                    <div class="statcard statcard-danger">
+                        <div class="p-a">
+                            <span class="statcard-desc">Downloads</span>
+                            <h2 class="statcard-number">1,278
+                                <small>3% <i class="fas fa-caret-down"></i></small>
+                            </h2>
+                            <hr class="divider">
+                            <img class="c-img" src="images/c2.png" alt="chart two">
+                        </div>
+                    </div>
+
+                    <div class="statcard statcard-info">
+                        <div class="p-a">
+                            <span class="statcard-desc">Sign-ups</span>
+                            <h2 class="statcard-number">3,398
+                                <small>7% <i class="fas fa-caret-up"></i></small>
+                            </h2>
+                            <hr class="divider">
+                            <img class="c-img" src="images/c3.png" alt="chart three">
+                        </div>
+                    </div>
+
+                    <div class="statcard statcard-warning">
+                        <div class="p-a">
+                            <span class="statcard-desc">Downloads</span>
+                            <h2 class="statcard-number">2,758
+                                <small>1% <i class="fas fa-caret-down"></i></small>
+                            </h2>
+                            <hr class="divider">
+                            <img class="c-img" src="images/c4.png" alt="chart four">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <table class="float-right country-sales">
+                <tr>
+                    <td class="list-group">
+                        <h4>Countries</h4>
+                    </td>
+                    <td class="list-group">
+                        <h4>Most vistited Pages</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>United States</span>
+                            <span class="float-right r-m">60%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/(Logged out)</span>
+                            <span class="float-right r-m">3,930,000</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>India</span>
+                            <span class="float-right r-m">10%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/(Logged in)</span>
+                            <span class="float-right r-m">1,435,393</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>United Kingdom</span>
+                            <span class="float-right r-m">5%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/tour</span>
+                            <span class="float-right r-m">1,382,870</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>Canada</span>
+                            <span class="float-right r-m">3%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/features/something</span>
+                            <span class="float-right r-m">77,939</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>Russia</span>
+                            <span class="float-right r-m">5%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/features/other</span>
+                            <span class="float-right r-m">70,597</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>Mexico</span>
+                            <span class="float-right r-m">3%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/users/username</span>
+                            <span class="float-right r-m">731,986</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>Spain</span>
+                            <span class="float-right r-m">7%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/page-title</span>
+                            <span class="float-right r-m">2,356,852</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>France</span>
+                            <span class="float-right r-m">3%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/page/slug</span>
+                            <span class="float-right r-m">229,818</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>South Africa</span>
+                            <span class="float-right r-m">2%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/another/directory/page</span>
+                            <span class="float-right r-m">619,312</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>Japan</span>
+                            <span class="float-right r-m">2%</span>
+                        </a>
+                    </td>
+                    <td class="list-group-item">
+                        <a href="#">
+                            <span>/page/directory/file-name</span>
+                            <span class="float-right r-m">933,827</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="button-group-item">
+                            <button class="btn-primary">All countries</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="button-group-item">
+                            <button class="btn-primary">View all pages</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <table class="devices float-right">
+        <tr>
+            <td class="list-group" colspan="2">
+                <h4>Devices and resolutions</h4>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Desktop (1920x1080) <span class="float-right r-m">3,691,214</span></a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Desktop (1366x768) <span class="float-right r-m">1,379,121</span> 
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Desktop (1440x900) <span class="float-right r-m">988,273</span> 
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Desktop (1280x800) <span class="float-right r-m">714,212</span> 
+                </a>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Tablet (1024x768) <span class="float-right r-m">695,912</span> 
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Tablet (768x1024) <span class="float-right r-m">510,152</span>  
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Phone (320x480) <span class="float-right r-m">369,121</span> 
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Phone (720x450) <span class="float-right r-m">246,810</span> 
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Desktop (2560x1080) <span class="float-right r-m">136,912</span> 
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="list-group-item" colspan="2">
+                <a href="#">Desktop (2560x1600) <span class="float-right r-m">91,215</span>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="button-group-item">
+                    <button class="btn-primary">View all devices</button>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
